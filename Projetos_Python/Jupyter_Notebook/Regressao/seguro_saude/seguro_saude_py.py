@@ -101,8 +101,8 @@ def visual_data(ytrain, y_pred):
   plt.plot([ytrain.min(), ytrain.max()], [ytrain.min(), ytrain.max()], 'k--', c='red', lw=3)
 
   plt.xlabel('Valor Atual')
-  plt.ylabel('Valor da Previção')
-  plt.title('Valor Atual vs Previção')
+  plt.ylabel('Valor da Previsão')
+  plt.title('Valor Atual vs Previsão')
   return plt.show()
 
 def runModel(filename):
